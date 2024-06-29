@@ -21,121 +21,126 @@
 5. **Continuous Integration**: Supports more efficient and frequent CI/CD pipelines, improving overall development workflow.
 
 # Example 1: Avoiding External Dependencies
+
 Using mocks to avoid external dependencies:
 
 ```javascript
-const { expect } = require('chai');
-const sinon = require('sinon');
-const UserService = require('./UserService');
-const Database = require('./Database');
+const { expect } = require("chai");
+const sinon = require("sinon");
+const UserService = require("./UserService");
+const Database = require("./Database");
 
-describe('UserService', () => {
-    let databaseMock;
-    let userService;
+describe("UserService", () => {
+  let databaseMock;
+  let userService;
 
-    beforeEach(() => {
-        databaseMock = sinon.mock(Database);
-        userService = new UserService(Database);
-    });
+  beforeEach(() => {
+    databaseMock = sinon.mock(Database);
+    userService = new UserService(Database);
+  });
 
-    afterEach(() => {
-        databaseMock.restore();
-    });
+  afterEach(() => {
+    databaseMock.restore();
+  });
 
-    it('should return user data', async () => {
-        const expectedUser = { id: 1, name: 'Alice' };
-        databaseMock.expects('getUserById').withArgs(1).resolves(expectedUser);
+  it("should return user data", async () => {
+    const expectedUser = { id: 1, name: "Alice" };
+    databaseMock.expects("getUserById").withArgs(1).resolves(expectedUser);
 
-        const user = await userService.getUser(1);
+    const user = await userService.getUser(1);
 
-        expect(user).to.deep.equal(expectedUser);
-        databaseMock.verify();
-    });
+    expect(user).to.deep.equal(expectedUser);
+    databaseMock.verify();
+  });
 });
 ```
 
 # Example 2: Isolating Tests
+
 Ensuring each test runs in isolation:
 
 ```javascript
-const { expect } = require('chai');
-const User = require('./User');
+const { expect } = require("chai");
+const User = require("./User");
 
-describe('User', () => {
-    let user;
+describe("User", () => {
+  let user;
 
-    beforeEach(() => {
-        user = new User('Alice');
-    });
+  beforeEach(() => {
+    user = new User("Alice");
+  });
 
-    it('should have a name', () => {
-        expect(user.name).to.equal('Alice');
-    });
+  it("should have a name", () => {
+    expect(user.name).to.equal("Alice");
+  });
 
-    it('should allow changing the name', () => {
-        user.setName('Bob');
-        expect(user.name).to.equal('Bob');
-    });
+  it("should allow changing the name", () => {
+    user.setName("Bob");
+    expect(user.name).to.equal("Bob");
+  });
 });
 ```
+
 # Example 3: Using In-memory Data Stores
+
 Using an in-memory database for testing:
 
 ```javascript
-const { expect } = require('chai');
-const UserService = require('./UserService');
-const InMemoryDatabase = require('./InMemoryDatabase');
+const { expect } = require("chai");
+const UserService = require("./UserService");
+const InMemoryDatabase = require("./InMemoryDatabase");
 
-describe('UserService with In-memory Database', () => {
-    let database;
-    let userService;
+describe("UserService with In-memory Database", () => {
+  let database;
+  let userService;
 
-    beforeEach(() => {
-        database = new InMemoryDatabase();
-        userService = new UserService(database);
-    });
+  beforeEach(() => {
+    database = new InMemoryDatabase();
+    userService = new UserService(database);
+  });
 
-    it('should add a user', () => {
-        userService.addUser({ id: 1, name: 'Alice' });
-        const user = userService.getUser(1);
-        expect(user).to.deep.equal({ id: 1, name: 'Alice' });
-    });
+  it("should add a user", () => {
+    userService.addUser({ id: 1, name: "Alice" });
+    const user = userService.getUser(1);
+    expect(user).to.deep.equal({ id: 1, name: "Alice" });
+  });
 
-    it('should update a user', () => {
-        userService.addUser({ id: 1, name: 'Alice' });
-        userService.updateUser(1, { name: 'Bob' });
-        const user = userService.getUser(1);
-        expect(user.name).to.equal('Bob');
-    });
+  it("should update a user", () => {
+    userService.addUser({ id: 1, name: "Alice" });
+    userService.updateUser(1, { name: "Bob" });
+    const user = userService.getUser(1);
+    expect(user.name).to.equal("Bob");
+  });
 });
 ```
 
 # Example 4: Parallel Execution
+
 Designing tests to run in parallel:
 
 ```javascript
-const { expect } = require('chai');
-const UserService = require('./UserService');
-const Database = require('./Database');
+const { expect } = require("chai");
+const UserService = require("./UserService");
+const Database = require("./Database");
 
-describe('UserService', () => {
-    let userService;
+describe("UserService", () => {
+  let userService;
 
-    beforeEach(() => {
-        userService = new UserService(new Database());
-    });
+  beforeEach(() => {
+    userService = new UserService(new Database());
+  });
 
-    it('should add a user', async () => {
-        await userService.addUser({ id: 1, name: 'Alice' });
-        const user = await userService.getUser(1);
-        expect(user).to.deep.equal({ id: 1, name: 'Alice' });
-    });
+  it("should add a user", async () => {
+    await userService.addUser({ id: 1, name: "Alice" });
+    const user = await userService.getUser(1);
+    expect(user).to.deep.equal({ id: 1, name: "Alice" });
+  });
 
-    it('should update a user', async () => {
-        await userService.addUser({ id: 2, name: 'Bob' });
-        await userService.updateUser(2, { name: 'Charlie' });
-        const user = await userService.getUser(2);
-        expect(user.name).to.equal('Charlie');
-    });
+  it("should update a user", async () => {
+    await userService.addUser({ id: 2, name: "Bob" });
+    await userService.updateUser(2, { name: "Charlie" });
+    const user = await userService.getUser(2);
+    expect(user.name).to.equal("Charlie");
+  });
 });
 ```

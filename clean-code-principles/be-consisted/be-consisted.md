@@ -1,6 +1,5 @@
 # Be Consistent
 
-
 Being consistent refers to maintaining a consistent pattern. This can include using consistent naming conventions, data structures, and interfaces throughout the system, as well as adhering to established design principles and best practices. Consistency can help to make the system more maintainable, understandable, and extendable.
 
 Consistency in coding can be applied to various aspects of a software project, including:
@@ -23,37 +22,37 @@ Consistency in coding can be applied to various aspects of a software project, i
 ```javascript
 // inconsistent naming conventions and structure
 function calc_areaCircle(r) {
-    return 3.14 * r * r;
+  return 3.14 * r * r;
 }
 
 function CalculateRectangleArea(width, height) {
-    return width * height;
+  return width * height;
 }
 
 class sqr {
-    constructor(side) {
-        this.side = side;
-    }
-    Area() {
-        return this.side * this.side;
-    }
+  constructor(side) {
+    this.side = side;
+  }
+  Area() {
+    return this.side * this.side;
+  }
 }
 
 // consistent naming conventions and structure
 function calculateCircleArea(radius) {
-    return Math.PI * radius * radius;
+  return Math.PI * radius * radius;
 }
 
 function calculateRectangleArea(width, height) {
-    return width * height;
+  return width * height;
 }
 
 class Square {
-    constructor(side) {
-        this.side = side;
-    }
-    calculateArea() {
-        return this.side * this.side;
-    }
+  constructor(side) {
+    this.side = side;
+  }
+  calculateArea() {
+    return this.side * this.side;
+  }
 }
-
+```

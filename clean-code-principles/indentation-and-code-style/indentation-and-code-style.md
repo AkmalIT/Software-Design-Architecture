@@ -9,17 +9,17 @@ Indentation and code style play an important role in creating clean, readable, a
 - **Spaces**: Using spaces usually provides more predictable formatting because the space is always the same width.
 - **Tabulation**: Tab allows developers to adjust the indent width to their liking within the editor, but can lead to alignment issues across editors.
 
-2. **Consistency**: 
+2. **Consistency**:
 
 - It is important to use the same indentation method throughout the project. Many teams choose spaces (usually 2 or 4 spaces) or tabs, but the key is to stick to the method you choose.
 
-- Example: 
+- Example:
 
 ```javascript
 // Consistent indentation
 
 if (isConditionTrue) {
-    doSomething();
+  doSomething();
 }
 ```
 
@@ -29,49 +29,47 @@ if (isConditionTrue) {
 - **Python**: PEP 8 recommends using 4 spaces for indentation.
 - **HTMl/CSS**: Typically 2 or 4 spaces are used for indentation.
 
-
 # Code style
 
-1. **Naming**: 
+1. **Naming**:
 
-- **Variables and functions**:  Use camelCase descriptive names for variables and functions.
+- **Variables and functions**: Use camelCase descriptive names for variables and functions.
 
-```javascript 
-// ❌ 
+```javascript
+// ❌
 
 let x = 5;
-function foo() { }
+function foo() {}
 
 // ✔
 
 let userAge = 5;
-function calculateSum() { }
+function calculateSum() {}
 ```
 
 - **Classes and constructors**: Use PascalCase for class and constructor names.
 
 ```javascript
 // ❌
-class user { }
+class user {}
 
 // ✔
-class User { }
+class User {}
 ```
 
-2. **Formatting**: 
+2. **Formatting**:
 
 - **Brackets**: Use an opening parenthesis on the same line as the function or condition declaration.
 
 ```javascript
 // ❌
-if (isConditionTrue)
-{
-    doSomething();
+if (isConditionTrue) {
+  doSomething();
 }
 
 // ✔
 if (isConditionTrue) {
-    doSomething();
+  doSomething();
 }
 ```
 
@@ -79,13 +77,13 @@ if (isConditionTrue) {
 
 ```javascript
 // ❌
-let sum=x+y;
+let sum = x + y;
 
 // ✔
 let sum = x + y;
 ```
 
-3. **Commenting**: 
+3. **Commenting**:
 
 - **Comments**: Comments should be used to explain complex or non-trivial parts of the code. Avoid excessive comments.
 
@@ -98,20 +96,21 @@ let age = 30; // We declare the age variable and assign it the value 30
 let userAge = 30;
 ```
 
-4. **Consistency**: 
+4. **Consistency**:
 
 - Stick to the same formatting style and conventions throughout the project. This includes using consistent indentation, formatting parentheses, naming variables and functions, etc.
 
-- Example: 
+- Example:
 
-```javascript 
+```javascript
 // ❌
-function add(a,b){
-return a+b;}
+function add(a, b) {
+  return a + b;
+}
 
 // ✔
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 ```
 
@@ -120,4 +119,4 @@ function add(a, b) {
 - **ESLint**: For JavaScript and TypeScript.
 - **Prettier**: Automatic code formatter for many languages.
 - **Pylint and flake8**: For Python.
-- **Stylelint**:  For CSS/SCSS.
+- **Stylelint**: For CSS/SCSS.

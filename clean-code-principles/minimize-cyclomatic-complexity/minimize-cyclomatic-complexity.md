@@ -13,7 +13,7 @@ Cyclomatic complexity is a metric used to measure the complexity of a program by
 # Benefits of Minimizing Cyclomatic Complexity:
 
 1. **Improved Readability**: Simplified code is easier to read and understand, reducing the likelihood of errors.
-2. **Easier Testing**: Lower complexity makes it easier to write unit tests and achieve better code coverage. 
+2. **Easier Testing**: Lower complexity makes it easier to write unit tests and achieve better code coverage.
 3. **Enhanced Maintainability**: Simplified code is easier to maintain and modify, facilitating quicker and safer changes.
 4. **Increased Reliability**: Reduced complexity decreases the chances of bugs and makes the codebase more robust.
 
@@ -23,32 +23,33 @@ High cyclomatic complexity:
 
 ```javascript
 function process(input) {
-    if (input > 10) {
-        if (input < 20) {
-            if (input % 2 === 0) {
-                return 'A';
-            } else {
-                return 'B';
-            }
-        } else {
-            return 'C';
-        }
+  if (input > 10) {
+    if (input < 20) {
+      if (input % 2 === 0) {
+        return "A";
+      } else {
+        return "B";
+      }
     } else {
-        return 'D';
+      return "C";
     }
+  } else {
+    return "D";
+  }
 }
 ```
+
 Minimized cyclomatic complexity:
 
 ```javascript
 function process(input) {
-    if (input <= 10) {
-        return 'D';
-    }
-    if (input >= 20) {
-        return 'C';
-    }
-    return input % 2 === 0 ? 'A' : 'B';
+  if (input <= 10) {
+    return "D";
+  }
+  if (input >= 20) {
+    return "C";
+  }
+  return input % 2 === 0 ? "A" : "B";
 }
 ```
 
@@ -58,25 +59,25 @@ Using polymorphism to reduce complexity:
 
 ```javascript
 class Animal {
-    speak() {
-        throw "This method should be overridden!";
-    }
+  speak() {
+    throw "This method should be overridden!";
+  }
 }
 
 class Dog extends Animal {
-    speak() {
-        return "Bark";
-    }
+  speak() {
+    return "Bark";
+  }
 }
 
 class Cat extends Animal {
-    speak() {
-        return "Meow";
-    }
+  speak() {
+    return "Meow";
+  }
 }
 
 function getAnimalSound(animal) {
-    return animal.speak();
+  return animal.speak();
 }
 
 const dog = new Dog();
