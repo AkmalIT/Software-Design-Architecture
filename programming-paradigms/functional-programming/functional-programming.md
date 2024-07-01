@@ -2,7 +2,7 @@
 
 **Functional Programming (FP)** is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. It emphasizes the use of pure functions, higher-order functions, and immutable data structures.
 
-# Key Characteristics:
+**Key Characteristics**:
 
 1. **Pure Functions**: Functions that return the same result given the same inputs and have no side effects.
 2. **First-Class Functions**: Functions are treated as first-class citizens, meaning they can be assigned to variables, passed as arguments, and returned from other functions.

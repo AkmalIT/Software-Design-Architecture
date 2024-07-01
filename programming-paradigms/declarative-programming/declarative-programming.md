@@ -2,7 +2,7 @@
 
 **Declarative Programming** is a programming paradigm that focuses on what the program should accomplish without specifying how to achieve the result. In declarative programming, the logic of computation is expressed without describing its control flow.
 
-# Key Characteristics:
+**Key Characteristics**:
 
 1. **Emphasis on What**: Focuses on the desired outcome rather than the steps to achieve it.
 2. **Abstraction**: Provides a higher-level interface, abstracting away the control flow.
@@ -99,7 +99,6 @@ button.style.borderRadius = "5px";
 2. **Maintainability**: Easier to maintain and modify due to its high level of abstraction.
 3. **Conciseness**: Typically requires fewer lines of code to express complex logic.
 4. **Parallelism**: Easier to optimize and parallelize as the system handles the control flow.
-
 
 # Guidelines for Declarative Programming:
 

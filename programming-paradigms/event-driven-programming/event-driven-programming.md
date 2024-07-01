@@ -2,7 +2,7 @@
 
 **Event-Driven Programming** is a programming paradigm where the flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or messages from other programs. This approach is particularly useful for applications that require a high degree of interactivity, such as graphical user interfaces (GUIs) and real-time systems.
 
-# Key Characteristics:
+**Key Characteristics**:
 
 1. **Event Handling**: Code is written to respond to events. Event listeners or handlers are set up to execute specific code when an event occurs.
 2. **Asynchronous Execution**: Many event-driven systems handle events asynchronously, allowing the program to continue running while waiting for events.
@@ -12,7 +12,7 @@
 
 **Event-Driven Cooking**: Imagine a kitchen where different tasks are performed based on specific events. For example, when a timer goes off, you take the cake out of the oven. When the doorbell rings, you answer it to receive a grocery delivery. Each action is triggered by an event, and you don’t follow a strict sequence of steps.
 
-# Examples of Event-Driven Programming Languages:
+**Examples of Event-Driven Programming Languages**:
 
 - **JavaScript**: Widely used in web development for handling user interactions.
 - **Node.js**: JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications.
