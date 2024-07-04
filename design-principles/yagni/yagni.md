@@ -4,10 +4,10 @@
 
 # Why is YAGNI Important?
 
-1. Reduces Complexity: Keeps the codebase simple and manageable by only implementing what is needed.
-2. Saves Time and Resources: Prevents wasted effort on features that may never be used.
-3. Increases Agility: Allows developers to adapt more easily to changing requirements by not being burdened with unnecessary code.
-4. Improves Focus: Encourages focusing on current requirements rather than speculative future needs.
+1. **Reduces Complexity**: Keeps the codebase simple and manageable by only implementing what is needed.
+2. **Saves Time and Resources**: Prevents wasted effort on features that may never be used.
+3. **Increases Agility**: Allows developers to adapt more easily to changing requirements by not being burdened with unnecessary code.
+4. **Improves Focus**: Encourages focusing on current requirements rather than speculative future needs.
 
 # Real-Life Analogy
 

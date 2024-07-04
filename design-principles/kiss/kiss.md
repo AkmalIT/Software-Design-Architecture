@@ -47,9 +47,9 @@ By using a simpler approach, the function becomes more concise and easier to und
 # Benefits of Using KISS
 
 1. **Simpler Codebase**: Results in a cleaner and more organized codebase.
-2. \*\*Ease of Understanding: Easier for new developers to understand and contribute to the code.
-3. \*\*Improved Maintenance: Reduces the effort required for maintenance and updates.
-4. \*\*Enhanced Collaboration: Facilitates collaboration among team members by promoting clear and straightforward code.
+2. **Ease of Understanding**: Easier for new developers to understand and contribute to the code.
+3. **Improved Maintenance**: Reduces the effort required for maintenance and updates.
+4. **Enhanced Collaboration**: Facilitates collaboration among team members by promoting clear and straightforward code.
 
 # Guidelines for Implementing KISS
 
