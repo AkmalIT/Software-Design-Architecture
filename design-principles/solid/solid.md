@@ -40,7 +40,7 @@ class User {
 }
 ```
 
-Example With SRP:
+**Example With SRP**:
 
 ```typescript
 class User {
