@@ -375,8 +375,8 @@ const addCarToPoliceDatabase = (
   flyweight.operation([plates, owner]);
 };
 
-addCarToPoliceDatabase(factory, "CL234IR", "James Doe", "BMW", "M5", "red");
-addCarToPoliceDatabase(factory, "CL234IR", "James Doe", "BMW", "X1", "red");
+addCarToPoliceDatabase(factory, "CL234IR", "Antony Starr: Homelander", "BMW", "M5", "red");
+addCarToPoliceDatabase(factory, "CL234IR", "Karl Urban: Butcher", "BMW", "X1", "red");
 
 factory.listFlyweights();
 ```
