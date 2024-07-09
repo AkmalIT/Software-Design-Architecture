@@ -1,3 +1,0 @@
-# Posa-Patterns
-
-# Privet
