@@ -140,4 +140,4 @@ Imagine a library system where each book has a unique identifier. When a book is
 
 # Summary
 
-Identity Maps are a powerful design pattern for managing and tracking objects within a session. They help optimize performance by reducing redundant database access, maintain consistency by ensuring a single instance per object, and simplify the management of object relationships. While they introduce some complexity and memory overhead, their benefits make them valuable in enterprise applications where performance and consistency are critical.
+**Identity Maps** are a powerful design pattern for managing and tracking objects within a session. They help optimize performance by reducing redundant database access, maintain consistency by ensuring a single instance per object, and simplify the management of object relationships. While they introduce some complexity and memory overhead, their benefits make them valuable in enterprise applications where performance and consistency are critical.
