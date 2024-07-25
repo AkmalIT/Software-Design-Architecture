@@ -143,4 +143,4 @@ Imagine a cashier in a store. Each transaction (like a purchase, return, or tran
 
 # Summary
 
-Transaction Script is a straightforward and procedural approach to organizing business logic in applications. It is suitable for small or simple applications where the business logic is not overly complex. While it offers simplicity and performance benefits, it can lead to scalability and maintenance challenges as the application grows. Understanding when and how to use Transaction Script can help developers keep their codebases clean and manageable, especially in the early stages of development or in smaller projects.
+**Transaction Script** is a straightforward and procedural approach to organizing business logic in applications. It is suitable for small or simple applications where the business logic is not overly complex. While it offers simplicity and performance benefits, it can lead to scalability and maintenance challenges as the application grows. Understanding when and how to use Transaction Script can help developers keep their codebases clean and manageable, especially in the early stages of development or in smaller projects.

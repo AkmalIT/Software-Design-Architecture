@@ -131,4 +131,4 @@ Imagine a library catalog system where the catalog is a repository. The catalog 
 
 # Summary
 
-Repositories are a crucial design pattern for managing data access in a modular and maintainable way. They provide a consistent interface for data operations, encapsulate data access logic, and promote separation of concerns, making the codebase more flexible, reusable, and testable. Despite some potential overhead, the benefits of using repositories in a well-structured application architecture are significant.
+**Repositories** are a crucial design pattern for managing data access in a modular and maintainable way. They provide a consistent interface for data operations, encapsulate data access logic, and promote separation of concerns, making the codebase more flexible, reusable, and testable. Despite some potential overhead, the benefits of using repositories in a well-structured application architecture are significant.

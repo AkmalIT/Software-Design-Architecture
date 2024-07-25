@@ -103,4 +103,4 @@ Consider a point on a Cartesian plane represented by its x and y coordinates. Th
 
 # Summary
 
-Value Objects are essential in modeling complex domains where attributes rather than identity define objects. They provide immutability, equality based on attributes, and self-validation, making the code more understandable, maintainable, and free from side effects related to state changes. By encapsulating specific value logic, they promote clean and robust domain models.
+**Value Objects** are essential in modeling complex domains where attributes rather than identity define objects. They provide immutability, equality based on attributes, and self-validation, making the code more understandable, maintainable, and free from side effects related to state changes. By encapsulating specific value logic, they promote clean and robust domain models.

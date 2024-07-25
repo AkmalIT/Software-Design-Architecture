@@ -108,4 +108,4 @@ Imagine a translator who converts a book written in one language to another lang
 
 # Summary
 
-Mappers play a crucial role in transforming data between different layers or components of an application. They help decouple different parts of the system, promote code reuse, and ensure consistent data transformation. Despite some potential performance overhead, the benefits of using mappers for maintaining a clean and maintainable codebase are significant.
+**Mappers** play a crucial role in transforming data between different layers or components of an application. They help decouple different parts of the system, promote code reuse, and ensure consistent data transformation. Despite some potential performance overhead, the benefits of using mappers for maintaining a clean and maintainable codebase are significant.
