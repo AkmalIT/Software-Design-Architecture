@@ -4,15 +4,16 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Table of Contents
 
-1. [Architectural Patterns](#architectural-patterns)
-2. [Architectural Principles](#architectural-principles)
-3. [Architectural Styles](#architectural-styles)
-4. [Clean Code Principles](#clean-code-principles)
-5. [Design Patterns](#design-patterns)
-6. [Design Principles](#design-principles)
-7. [Enterprise Patterns](#enterprise-patterns)
-8. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-9. [Programming Paradigms](#programming-paradigms)
+1. [Architectural Patterns](./architectural-patterns)
+2. [Architectural Principles](./architectural-principles)
+3. [Architectural Styles](./architectural-styles)
+4. [Clean Code Principles](./clean-code-principles)
+5. [Design Patterns](./design-patterns)
+6. [Design Principles](./design-principles)
+7. [Enterprise Patterns](./enterprise-patterns)
+8. [Object-Oriented Programming (OOP)](./oop)
+9. [Programming Paradigms](./programming-paradigms)
+
 
 ## Architectural Patterns
 
