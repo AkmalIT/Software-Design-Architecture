@@ -17,7 +17,6 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Architectural Patterns
 
-This section covers various architectural patterns used in software engineering to provide solutions to common problems in system architecture.
 
 - **Contents:**
   - Definition and benefits
@@ -26,7 +25,6 @@ This section covers various architectural patterns used in software engineering 
 
 ## Architectural Principles
 
-Architectural principles are fundamental guidelines for building robust and scalable systems.
 
 - **Contents:**
   - Core principles
@@ -35,7 +33,6 @@ Architectural principles are fundamental guidelines for building robust and scal
 
 ## Architectural Styles
 
-Architectural styles define the overall structure for software systems.
 
 - **Contents:**
   - Overview of different styles
@@ -44,7 +41,6 @@ Architectural styles define the overall structure for software systems.
 
 ## Clean Code Principles
 
-Clean code principles help ensure that code is readable, maintainable, and free from bugs.
 
 - **Contents:**
   - Key principles (e.g., DRY, KISS, YAGNI)
@@ -53,7 +49,6 @@ Clean code principles help ensure that code is readable, maintainable, and free 
 
 ## Design Patterns
 
-Design patterns provide general solutions to recurring design problems.
 
 - **Contents:**
   - Creational patterns
@@ -62,7 +57,6 @@ Design patterns provide general solutions to recurring design problems.
 
 ## Design Principles
 
-Design principles guide the creation of software that is both functional and maintainable.
 
 - **Contents:**
   - SOLID principles
@@ -71,7 +65,6 @@ Design principles guide the creation of software that is both functional and mai
 
 ## Enterprise Patterns
 
-Enterprise patterns address common challenges in enterprise software development.
 
 - **Contents:**
   - Data Transfer Objects (DTOs)
@@ -81,7 +74,6 @@ Enterprise patterns address common challenges in enterprise software development
 
 ## Object-Oriented Programming (OOP)
 
-OOP is a programming paradigm based on the concept of objects.
 
 - **Contents:**
   - Core concepts (e.g., inheritance, polymorphism, encapsulation)
@@ -91,7 +83,6 @@ OOP is a programming paradigm based on the concept of objects.
 
 ## Programming Paradigms
 
-Programming paradigms define different approaches to programming.
 
 - **Contents:**
   - Overview of paradigms (e.g., structured, declarative, event-driven)
