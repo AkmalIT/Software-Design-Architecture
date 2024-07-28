@@ -17,11 +17,17 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Architectural Patterns
 
-
 - **Contents:**
-  - Definition and benefits
-  - Examples
-  - Best practices
+- [Blackboard Pattern](./architectural-patterns/blackboard-pattern.md)
+- [CQRS](./architectural-patterns/cqrs.md)
+- [Domain Driven Design](./architectural-patterns/domain-driven-design.md)
+- [Event Sourcing](./architectural-patterns/event-sourcing.md)
+- [Message Queues & Streams](./architectural-patterns/message-queues-streams.md)
+- [Microkernel](./architectural-patterns/microkernel.md)
+- [MicroServices](./architectural-patterns/microservices.md)
+- [Model View Controller (MVC)](./architectural-patterns/model-view-controller.md)
+- [Serverless Architecture](./architectural-patterns/serverless-architecture.md)
+- [SOA](./architectural-patterns/soa.md)
 
 ## Architectural Principles
 
