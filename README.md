@@ -40,60 +40,22 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 ## Architectural Styles
 
 
-- **Contents:**
-  - Overview of different styles
-  - Use cases
-  - Pros and cons
-
 ## Clean Code Principles
 
-
-- **Contents:**
-  - Key principles (e.g., DRY, KISS, YAGNI)
-  - Guidelines for writing clean code
-  - Code examples
 
 ## Design Patterns
 
 
-- **Contents:**
-  - Creational patterns
-  - Structural patterns
-  - Behavioral patterns
-
 ## Design Principles
 
 
-- **Contents:**
-  - SOLID principles
-  - Other essential design principles
-  - Code examples
-
 ## Enterprise Patterns
 
-
-- **Contents:**
-  - Data Transfer Objects (DTOs)
-  - Repositories
-  - Identity Maps
-  - Use cases
-
 ## Object-Oriented Programming (OOP)
-
-
-- **Contents:**
-  - Core concepts (e.g., inheritance, polymorphism, encapsulation)
-  - Abstract and concrete classes
-  - Interfaces and domain models
-  - Code examples in TypeScript
 
 ## Programming Paradigms
 
 
-- **Contents:**
-  - Overview of paradigms (e.g., structured, declarative, event-driven)
-  - Examples in JavaScript and TypeScript
-  - Real-life analogies
 
 ## Getting Started
 
