@@ -43,24 +43,17 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 - **Contents:**
   
 - **Distributed**
-- [Client Server](./architectural-styles
-/distributed/client-server.md)
-- [Peer to Peer](./architectural-styles
-/distributed/peer-to-peer.md)
+- [Client Server](./architectural-styles/distributed/client-server.md)
+- [Peer to Peer](./architectural-styles/distributed/peer-to-peer.md)
 
 - **Messaging**
-- [Event Driven](./architectural-styles
-/messaging/event-driven.md)
-- [Publish Subscribe](./architectural-styles
-/messaging/publish-subscribe.md)
+- [Event Driven](./architectural-styles/messaging/event-driven.md)
+- [Publish Subscribe](./architectural-styles/messaging/publish-subscribe.md)
 
 - **Structural**
-- [Component Based](./architectural-styles
-/structural/component-based.md)
-- [Layered](./architectural-styles
-/structural/layered.md)
-- [Monolithic](./architectural-styles
-/structural/monolithic.md)
+- [Component Based](./architectural-styles/structural/component-based.md)
+- [Layered](./architectural-styles/structural/layered.md)
+- [Monolithic](./architectural-styles/structural/monolithic.md)
 
 ## Clean Code Principles
 
