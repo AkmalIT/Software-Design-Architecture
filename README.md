@@ -40,6 +40,27 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Architectural Styles
 
+- **Contents:**
+  
+- **Distributed**
+- [Client Server](./architectural-styles
+/distributed/client-server.md)
+- [Peer to Peer](./architectural-styles
+/distributed/peer-to-peer.md)
+
+- **Messaging**
+- [Event Driven](./architectural-styles
+/messaging/event-driven.md)
+- [Publish Subscribe](./architectural-styles
+/messaging/publish-subscribe.md)
+
+- **Structural**
+- [Component Based](./architectural-styles
+/structural/component-based.md)
+- [Layered](./architectural-styles
+/structural/layered.md)
+- [Monolithic](./architectural-styles
+/structural/monolithic.md)
 
 ## Clean Code Principles
 
@@ -62,7 +83,6 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 To get started with this repository:
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```sh
    git clone https://github.com/AkmalIT/Development-Guide.git
-   cd Development-Guide
