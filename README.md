@@ -33,9 +33,10 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 
 - **Contents:**
-  - Core principles
-  - Real-world examples
-  - Implementation strategies
+- [Boundaries](./architectural-principles/boundaries.md)
+- [Component Principles](./architectural-principles/component-principles.md)
+- [Coupling and Cohesion](./architectural-principles/coupling-and-cohesion.md)
+- [Policy vs Detail](./architectural-principles/policy-vs-detail.md)
 
 ## Architectural Styles
 
