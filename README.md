@@ -59,7 +59,7 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 - **Contents**
 - [Avoid Passing Nulls and Booleans](./clean-code-principles/avoid-passing-nulls-booleans.md)
-- [Be Consistent](./clean-code-principles/be-consistent.md)
+- [Be Consistent](./clean-code-principles/be-consisted.md)
 - [Command Query Separation](./clean-code-principles/command-query-separation.md)
 - [Indentation and Code Style](./clean-code-principles/indentation-and-code-style.md)
 - [Keep Framework Code Distant](./clean-code-principles/keep-framework-code-distant.md)
