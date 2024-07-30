@@ -57,7 +57,23 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Clean Code Principles
 
+- **Contents**
+- [Avoid Passing Nulls and Booleans](./clean-code-principles/avoid-passing-nulls-booleans.md)
+- [Be Consistent](./clean-code-principles/be-consistent.md)
+- [Command Query Separation](./clean-code-principles/command-query-separation.md)
+- [Indentation and Code Style](./clean-code-principles/indentation-and-code-style.md)
+- [Keep Framework Code Distant](./clean-code-principles/keep-framework-code-distant.md)
+- [Keep It Simple and Refactor Often](./clean-code-principles/keep-it-simple-and-refactor-often.md)
+- [Keep Methods, Classes, and Files Small](./clean-code-principles/keep-methods-classes-files-small.md)
+- [Meaningful Names Over Comments](./clean-code-principles/meaningful-names-over-comments.md)
+- [Minimize Cyclomatic Complexity](./clean-code-principles/minimize-cyclomatic-complexity.md)
+- [Organize Code by Actor](./clean-code-principles/organize-code-by-actor.md)
+- [Pure Functions](./clean-code-principles/pure-functions.md)
+- [Tests Should Be Fast and Independent](./clean-code-principles/tests-should-be-fast-and-independent.md)
+- [Use Correct Constructs](./clean-code-principles/use-correct-constructs.md)
+- [Use Meaningful Names](./clean-code-principles/use-meaningful-names.md)
 
+  
 ## Design Patterns
 
 
