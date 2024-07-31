@@ -88,6 +88,15 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Design Principles
 
+- **Contents**
+
+- [DRY](./design-principles/dry.md)
+- [Hollywood Principle](./design-principles/hollywood-principle.md)
+- [KISS](./design-principles/kiss.md)
+- [LoD](./design-principles/lod.md)
+- [SOLID](./design-principles/solid.md)
+- [YAGNI](./design-principles/yagni.md)
+  
 
 ## Enterprise Patterns
 
