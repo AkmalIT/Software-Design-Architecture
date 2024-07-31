@@ -120,10 +120,10 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 - **Paradigm Features**
 
-- [Abstract Classes](./paradigm-features/abstract-classes.md)
-- [Concrete Classes](./paradigm-features/concrete-classes.md)
-- [Interfaces](./paradigm-features/interfaces.md)
-- [Scope and Visibility](./paradigm-features/scope-visibility.md)
+- [Abstract Classes](./oop/paradigm-features/abstract-classes.md)
+- [Concrete Classes](./oop/paradigm-features/concrete-classes.md)
+- [Interfaces](./oop/paradigm-features/interfaces.md)
+- [Scope and Visibility](./oop/paradigm-features/scope-visibility.md)
 
 - **Primary Principles**
 
