@@ -100,11 +100,51 @@ Welcome to AkmalIT's Development Guide. This repository serves as a comprehensiv
 
 ## Enterprise Patterns
 
+- **Contents**
+  
+- [Domain Models](./enterprise-patterns/domain-models.md)
+- [DTOs](./enterprise-patterns/dtos.md)
+- [Entities](./enterprise-patterns/entities.md)
+- [Identity Maps](./enterprise-patterns/identity-maps.md)
+- [Mappers](./enterprise-patterns/mappers.md)
+- [ORMs](./enterprise-patterns/orms.md)
+- [Repositories](./enterprise-patterns/repositories.md)
+- [Transaction Script](./enterprise-patterns/transaction-script.md)
+- [Use Cases](./enterprise-patterns/use-cases.md)
+- [Value Objects](./enterprise-patterns/value-objects.md)
+  
+
 ## Object-Oriented Programming (OOP)
+
+- **Contents**
+
+- **Paradigm Features**
+
+- [Abstract Classes](./paradigm-features/abstract-classes.md)
+- [Concrete Classes](./paradigm-features/concrete-classes.md)
+- [Interfaces](./paradigm-features/interfaces.md)
+- [Scope and Visibility](./paradigm-features/scope-visibility.md)
+
+- **Primary Principles**
+
+- [Encapsulation](./oop/primary-principles/encapsulation.md)
+- [Inheritance](./oop/primary-principles/inheritance.md)
+- [Polymorphism](./oop/primary-principles/polymorphism.md)
+  
 
 ## Programming Paradigms
 
+- **Contents**
 
+- [Declarative Programming](./programming-paradigms/declarative-programming.md)
+- [Event-Driven Programming](./programming-paradigms/event-driven-programming.md)
+- [Functional Programming](./programming-paradigms/functional-programming.md)
+- [Imperative Programming](./programming-paradigms/imperative-programming.md)
+- [Object-Oriented Programming](./programming-paradigms/object-oriented-programming.md)
+- [Procedural Programming](./programming-paradigms/procedural-programming.md)
+- [Structured Programming](./programming-paradigms/structured-programming.md)
+
+  
 
 ## Getting Started
 
